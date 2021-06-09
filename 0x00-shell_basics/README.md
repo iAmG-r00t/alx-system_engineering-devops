@@ -6,3 +6,4 @@
 - (3. The long format) Display current directory contents in a long format.
 - (4. Hidden files) Display current directory contents. including hidden files.
 - (5. I loce numbers) Display current directory contents, using long format, while displaying group IDs in numeral and show hidden files.
+- (6. Welcome holberton) A script that will create a directory named holberton in the /tmp/ directory.
