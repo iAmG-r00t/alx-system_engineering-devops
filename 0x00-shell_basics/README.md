@@ -7,3 +7,4 @@
 - (4. Hidden files) Display current directory contents. including hidden files.
 - (5. I loce numbers) Display current directory contents, using long format, while displaying group IDs in numeral and show hidden files.
 - (6. Welcome holberton) A script that will create a directory named holberton in the /tmp/ directory.
+- (7. Betty in Holberton) Move a file called betty from home to the new directory created above.
