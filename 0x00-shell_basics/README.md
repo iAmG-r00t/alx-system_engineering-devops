@@ -10,3 +10,4 @@
 - (7. Betty in Holberton) Move a file called betty from home to the new directory created above.
 - (8. Bye bye Betty) Delete file betty from the new location.
 - (9. Bye bye Holberton) Delete directory holberton that is in the /tmp/ directory.
+- (10. Back to the future) Change working directory to the previous one.
