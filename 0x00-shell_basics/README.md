@@ -9,3 +9,4 @@
 - (6. Welcome holberton) A script that will create a directory named holberton in the /tmp/ directory.
 - (7. Betty in Holberton) Move a file called betty from home to the new directory created above.
 - (8. Bye bye Betty) Delete file betty from the new location.
+- (9. Bye bye Holberton) Delete directory holberton that is in the /tmp/ directory.
