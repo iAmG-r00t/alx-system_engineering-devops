@@ -8,4 +8,5 @@
 5. [Execute](./5-execute) : A script that adds execute permission to the owner of the file `hello`.
 6. [Multiple permissions](./6-multiple_permissions) : A script that adds execute permission to the owner and the group owner, and read permission to the other users, to the file `hello`.
 7. [Everybody!](./7-everybody) : A script that adds execution permissions to the owner, the group owner and the other users, to the file `hello`.
-8. [James Bond}(./8-James_Bond) : A script that gives the gives the rest of the users permission and removes all permission for the owner and the group owner.
+8. [James Bond](./8-James_Bond) : A script that gives the gives the rest of the users permission and removes all permission for the owner and the group owner.
+9. [John Doe](./9-John_Doe) : A script that sets the mode of the file `hello`; where owner has all the permissions set, group owner has execute permissions set and others have only write and read permissions set.
