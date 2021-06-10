@@ -17,3 +17,4 @@
 - (14. Copy HTML files) Create a script that copies all html files from the current working directory to the parent working directory while only copying files that did not exist.
 - (15. Let's move) A script that moves all files beginning with an uppercase letter to the directory /tmp/u.
 - (16. Clean Emacs) A script that deletes all files in the current directory that end with the character `~`.
+- (17. Tree) A script that creates the directory `welcome/`, `welcome/to/` and `welcome/to/holberton`.
