@@ -1,0 +1,3 @@
+#!/bin/bash
+su betty
+
