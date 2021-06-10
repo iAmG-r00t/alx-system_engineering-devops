@@ -1,3 +1,4 @@
-# 0x00 Shell Basics
+# 0x00
 
-- An awesome project right here
+- [0x00](./0x00-shell_basics) : Writing basic bash scripts that perform basic stuff.
+- [0x01](./0x01-shell_permissions) : Linux permissions.
