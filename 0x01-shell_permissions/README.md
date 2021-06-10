@@ -11,3 +11,4 @@
 8. [James Bond](./8-James_Bond) : A script that gives the gives the rest of the users permission and removes all permission for the owner and the group owner.
 9. [John Doe](./9-John_Doe) : A script that sets the mode of the file `hello`; where owner has all the permissions set, group owner has execute permissions set and others have only write and read permissions set.
 10. [Look in the mirror](./10-mirror_permissions) : A script that sets the mode of the file `hello` the same as `olleh`'s mode.
+11. [Directories](./11-directories_permissions) : A script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. (**NB:** *Regular files should not be changed.*)
