@@ -14,3 +14,4 @@
 - (11. Lists) List all files ....
 - (12. File type) A script that prints the type of the named file `iamafile`. The `iamafile` will be in the /tmp/ directory when we will run your script.
 - (13. We are symbols, and inhabit symbols) Create a symbolic link to `/bin/ls`, named `__ls__`. The symbolic link should be created in the current working directory.
+- (14. Copy HTML files) Create a script that copies all html files from the current working directory to the parent working directory while only copying files that did not exist.
