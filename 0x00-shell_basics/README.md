@@ -1,3 +1,4 @@
+
 # Shell Basics Scripts
 
 - (0. Where am I?) A script that prints the absolute path of the current working directory.
@@ -19,3 +20,4 @@
 - (16. Clean Emacs) A script that deletes all files in the current directory that end with the character `~`.
 - (17. Tree) A script that creates the directory `welcome/`, `welcome/to/` and `welcome/to/holberton`.
 - (18. Life is a series of commas, not periods) A script that lists all the files and directories of the current directory separated by commas(`,`).
+- (19. File type: Holberton) Create a magic file `holberton.mgc` that can be used with the command `file` to detect `Holberton` data files always contain the string `HOLBERTON` at offset 0.
