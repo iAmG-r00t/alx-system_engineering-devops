@@ -12,3 +12,4 @@
 - (9. Bye bye Holberton) Delete directory holberton that is in the /tmp/ directory.
 - (10. Back to the future) Change working directory to the previous one.
 - (11. Lists) List all files ....
+- (12. File type) A script that prints the type of the named file `iamafile`. The `iamafile` will be in the /tmp/ directory when we will run your script.
