@@ -13,3 +13,4 @@
 - (10. Back to the future) Change working directory to the previous one.
 - (11. Lists) List all files ....
 - (12. File type) A script that prints the type of the named file `iamafile`. The `iamafile` will be in the /tmp/ directory when we will run your script.
+- (13. We are symbols, and inhabit symbols) Create a symbolic link to `/bin/ls`, named `__ls__`. The symbolic link should be created in the current working directory.
