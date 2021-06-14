@@ -11,3 +11,4 @@
 1. [Confused smiley](./1-confused_smiley) : A script that displays a confused smiley: `"(Ôo)'`.
 2. [Let's display a file](./2-hellofile) : A script that displays the content of the `/etc/passwd` file.
 3. [What about 2?](./3-twofiles) : A scipt that displays content of `/etc/passwd` and `/etc/hosts`.
+4. [Last lines of a file](./4-lastlines) : A script that displays the last 10 lines of `/etc/passwd`.
