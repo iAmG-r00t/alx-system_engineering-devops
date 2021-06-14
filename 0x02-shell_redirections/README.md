@@ -15,3 +15,5 @@
 5. [I'd prefer the first ones actually](./5-firstlines) : A scipt that displays the first 10 lines of `etc/passwd`.
 6. [Line #2](./6-third_line) : A script that displays the third line of the file `iacta`.
    - The file `iacta` will be in the working directory and you are not allowed to use `sed`.
+7. [It is a good file that cuts iron without making a noise](./7-file) : A script that creates a file named exactly `\*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:)` containing the text `Holberton School` ending by a new line.
+  - For this challenge, remember to use a single backslash `\` to escape special characters and double backslash `\\` to escape the backslash itself.
