@@ -32,3 +32,6 @@
    - Words should be sorted. (use this [list](./list) as your input to see if the challenge will work. 😊) `cat list | ./13-unique`
 14. [It must be in that file](./14-findthatword) : A script that prints lines containing the pattern `"root"` from the file `/etc/passwd`.
 15. [Count that word](./15-countthatword) : A script that displays the number of lines that contain the pattern `"bin"` in the file `/etc/passwd`.
+16. [What's next?](./16-whatsnext) : A script that containing the pattern `"root"` and 3 lines after them in the file `/etc/passwd`.
+   - `B` : This shows the lines before your pattern match.
+   - `A` : This shows the lines after your pattern match.
