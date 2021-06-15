@@ -42,3 +42,7 @@
 20. [Without C, you would live in hiago](./20-hiago) : A script that removes all letters `c` and `C` from input.
 21. [esreveR](./21-reverse) : A script that reverse its input.
 22. [DJ Cut Killer](./22-users_and_homes) : A scipt that displays all users and their home directories, sorted by users, based on the `/etc/passwd` file.
+23. [Empty casks make the most noise](./100-empty_casks) : A script that finds all empty files and directories in the current directory and all sub-directories.
+   - Only names of the files and directories should be displayed (not the entire path.)
+   - Hidden files should be listed also, one file name per line and the listing should end with a new line.
+   - You are not allowed to use `basename`, `grep`, `egrep`, `fgrep` or `rgrep`.
