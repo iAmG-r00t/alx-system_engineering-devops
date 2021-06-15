@@ -35,3 +35,4 @@
 16. [What's next?](./16-whatsnext) : A script that containing the pattern `"root"` and 3 lines after them in the file `/etc/passwd`.
    - `B` : This shows the lines before your pattern match.
    - `A` : This shows the lines after your pattern match.
+17. [I hate bins](./17-hidethisword) : A script that displays all the lines in the file `/etc/passwd` that do not contain the pattern `"bin"`.
