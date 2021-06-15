@@ -1,9 +1,2 @@
 #!/bin/bash
-if [ -e ls_cwd_content ]
-then
-	ls -la > ls_cwd_content
-
-else
-
-	ls -la > ls_cwd_content
-fi
+ls -la > ls_cwd_content
