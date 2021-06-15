@@ -27,3 +27,6 @@
      - **Others:** `maxdepth 1` ; To avoid parsing sub directories. (*you may need this in future.*)
 12. [Whats12's new](./12-newest_files) : A script that prints the 10 newest files in the current directory.
    - The output should be; one file per line and sorted from the newest to the oldest.
+13. [13. Being unique is better than being perfect](./13-unique) : A script that takes a list of words as input and prints only words that appear exactly once.
+   - Input and Output format is; `One word per line`.
+   - Words should be sorted.
