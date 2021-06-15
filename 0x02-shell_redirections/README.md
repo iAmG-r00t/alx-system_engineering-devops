@@ -36,3 +36,4 @@
    - `B` : This shows the lines before your pattern match.
    - `A` : This shows the lines after your pattern match.
 17. [I hate bins](./17-hidethisword) : A script that displays all the lines in the file `/etc/passwd` that do not contain the pattern `"bin"`.
+18. [Letters only please](./18-letteronly) : A script that displays all lines of the file `/ect/ssh/sshd_config` starting with a letter, including capital letters as well.
