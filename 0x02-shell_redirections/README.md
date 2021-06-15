@@ -25,3 +25,5 @@
    - Hidden directories should be counted.
      - **Solution:** `mindepth 1` ; To exclude root directory
      - **Others:** `maxdepth 1` ; To avoid parsing sub directories. (*you may need this in future.*)
+12. [Whats12's new](./12-newest_files) : A script that prints the 10 newest files in the current directory.
+   - The output should be; one file per line and sorted from the newest to the oldest.
