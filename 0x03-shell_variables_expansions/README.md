@@ -17,3 +17,4 @@
 2. [The path to success is to take massive, determined action](./2-path) : A script that adds `/action` to the `PATH`. `/action` should be the last directory the shell looks into when looking for a program.
 3. [If the path be beautiful, let us not ask where it leads](./3-paths) : A script that counts the number of directories in the `PATH`.
 4. [Global variables](./4-global_variables) : A script that prints all the enviroment variables.
+5. [Local variables ](./5-local_variables) : A script that lists all local variables and enviroment variables, and functions.
