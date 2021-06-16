@@ -33,3 +33,6 @@
     - export POWER=42784
     - export DIVIDE=32
    - Run command this way: `./9-divide_and_rule | cat -e`
+10. [Love is anterior to life, posterior to death, initial of creation, and the exponent of breath](./10-love_exponent_breath) : A script that displays the result of `BREATH` to the power of `LOVE`.
+   - `BREATH` and `LOVE` are enviroment variables.
+   - The script should display the result, followed by a new line.
