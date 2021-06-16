@@ -24,3 +24,6 @@
 7. [Global variable](./7-create_global_variable) : A script that creates a new global variable.
    - Name of variable : `HOLBERTON`
    - Value : `Betty`
+8. [Every addition to true knowledge is an addition to human power](./8-true_knowledge) : A script that prints the results of the addition of 128 with the value stored in the enviroment variable `TRUEKNOWLEDGE`, followed by a new line.
+   - Remember to export variable TRUEKNOWLEDGE : `export TRUEKNOWLEDGE=1209`
+   - Run command this way: `./8-true_knowledge | cat -e`
