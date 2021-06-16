@@ -27,3 +27,9 @@
 8. [Every addition to true knowledge is an addition to human power](./8-true_knowledge) : A script that prints the results of the addition of 128 with the value stored in the enviroment variable `TRUEKNOWLEDGE`, followed by a new line.
    - Remember to export variable TRUEKNOWLEDGE : `export TRUEKNOWLEDGE=1209`
    - Run command this way: `./8-true_knowledge | cat -e`
+9. [Divide and rule](./9-divide_and_rule) : A script that prints the result of `POWER` divide by `DIVIDE`, followed by a new line.
+   - `POWER` and `DIVIDE` are environment variables.
+   - Variables values;
+    - export POWER=42784
+    - export DIVIDE=32
+   - Run command this way: `./9-divide_and_rule | cat -e`
