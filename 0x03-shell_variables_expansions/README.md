@@ -9,3 +9,7 @@
 - [The alias Command](http://www.linfo.org/alias.html).
 
 ## Tasks
+
+0. [<o>](./0-alias) : A script that creates an alias.
+   - Name: `ls`
+   - Value: `rm *` 
