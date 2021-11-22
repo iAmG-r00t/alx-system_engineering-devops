@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# shellcheck disable=SC2034 #unsed variable i
-for i in {1..10}
-do
+# prints a string 10 times
+
+for ((i = 1; i <= 10; i++)); do
   echo "Best School"
 done
