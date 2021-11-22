@@ -23,3 +23,8 @@
   </li>
 </ul>
 </details>
+
+<details>
+<summary><a href="./1-for_best_school">1. For Best School loop</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/XYvX60Nr/image.png' border='0' alt='image'/></a>
+</details>

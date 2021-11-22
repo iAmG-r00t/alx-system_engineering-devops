@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# shellcheck disable=SC2034 #unsed variable i
+for i in {1..10}
+do
+  echo "Best School"
+done
