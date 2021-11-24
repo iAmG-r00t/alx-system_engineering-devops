@@ -43,3 +43,16 @@
 <summary><a href="./4-if_9_say_hi">4. If 9, say Hi!</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/vBCCykBL/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./5-4_bad_luck_8_is_your_chance">5. 4 bad luck, 8 is your chance</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/SxMkcYGF/image.png' border='0' alt='image'/></a><br>
+<ul>
+  <li>Links from screenshot
+  <ul>
+      <li><a href="https://freakonomics.com/2006/07/05/lucky-8s-in-china/">8 in the Chinese culture</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Chinese_numerology#Four">4 in the Chinese culture</a></li>
+  </ul>
+  </li>
+</ul>
+</details>
