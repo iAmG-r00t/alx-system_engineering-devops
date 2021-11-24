@@ -38,3 +38,8 @@
 <summary><a href="./3-until_best_school">3. Until Best School loop</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/y8jvVtx4/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./4-if_9_say_hi">4. If 9, say Hi!</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/vBCCykBL/image.png' border='0' alt='image'/></a>
+</details>
