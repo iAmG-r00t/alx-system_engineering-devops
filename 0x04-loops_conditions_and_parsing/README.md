@@ -33,3 +33,8 @@
 <summary><a href="./2-while_best_school">2. While Best School loop</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/KcfDJy01/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./3-until_best_school">3. Until Best School loop</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/y8jvVtx4/image.png' border='0' alt='image'/></a>
+</details>
