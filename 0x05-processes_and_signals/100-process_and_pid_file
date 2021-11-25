@@ -12,7 +12,7 @@ sleep 2 &
 echo "$!" > "$file"
 
 # prints I hate the kill command, deletes the file and exits  when receiving a SIGTERM or SIGQUIT signal
-trap "echo I hate the kill command; rm $file; exit" SIGTERM SIGQUIT
+trap 'echo "I hate the kill command"; rm "$file"; exit' SIGTERM SIGQUIT
 
 # prints Y U no love me?! when receiving a SIGINT signal
 trap "echo Y U no love me?!" SIGINT
