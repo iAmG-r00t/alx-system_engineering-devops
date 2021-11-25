@@ -108,7 +108,13 @@
   <ul>
       <li><a href="https://en.wikipedia.org/wiki/Apache_HTTP_Server">Apache HTTP Server</a></li>
       <li><a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes">HTTP status codes</a></li>
+      <li><a href="https://www.the-art-of-web.com/system/logs/">System: Analyzing Apache log Files</a></li>
   </ul>
   </li>
 </ul>
+</details>
+
+<details>
+<summary><a href="./103-dig_the-data">14. Dig the data</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/T2WBc5gs/image.png' border='0' alt='image'/></a>
 </details>
