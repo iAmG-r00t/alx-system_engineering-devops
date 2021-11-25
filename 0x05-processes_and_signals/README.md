@@ -52,3 +52,13 @@
 <summary><a href="./8-beheaded_process">8. Beheaded process</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/W4Xg8DTS/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./beheaded_process">8. Beheaded process</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/W4Xg8DTS/image.png' border='0' alt='image'/></a>
+</details>
+
+<details>
+<summary><a href="./100-process_and_pid_file">9. Process and PID file</a></summary><br>
+<a href='https://postimg.cc/VdHnF6Cd' target='_blank'><img src='https://i.postimg.cc/rwqjMRyC/image.png' border='0' alt='image'/></a>
+</details>
