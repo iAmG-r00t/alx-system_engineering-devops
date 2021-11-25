@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-# manages a process
+# manages manage_my_process by either starting it, stopping it or restarting it.
 
 command="$1"
 file="/var/run/myscript.pid"
 
 if [ -z "$command" ]; then
 
-  echo "Usage: $(basename "${BASH_SOURCE[0]}") {start|stop|restart}"
+  echo "Usage: manage_my_process {start|stop|restart}"
 
 fi
 
@@ -17,8 +17,8 @@ if [ "$command" == "start" ]; then
   echo "manage_my_process started"
 
 elif [ "$command" == "stop" ]; then
-
-  [ -e "$file" ] && pkill -f manage_my_process && rm "$file"
+  pkill -f manage_my_process
+  [ -e "$file" ] && rm "$file"
   echo "manage_my_process stopped"
 
 elif [ "$command" == "restart" ]; then
@@ -28,5 +28,5 @@ elif [ "$command" == "restart" ]; then
   echo "manage_my_process restarted"
 
 else
-  echo "Usage: $(basename "${BASH_SOURCE[0]}") {start|stop|restart}" 
+  echo "Usage: manage_my_process {start|stop|restart}" 
 fi
