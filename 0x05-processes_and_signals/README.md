@@ -22,3 +22,8 @@
 <summary><a href="./2-show_your_bash_pid">2. Show your Bash PID</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/T3pRbrz9/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./3-show_your_bash_pid_made_easy">3. Show your Bash PID made easy</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/4NCc3xjn/image.png' border='0' alt='image'/></a>
+</details>
