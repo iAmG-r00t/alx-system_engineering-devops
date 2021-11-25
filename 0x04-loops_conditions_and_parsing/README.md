@@ -61,3 +61,8 @@
 <summary><a href="./6-superstitious_numbers">6. Superstitious numbers</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/XvHdRPT0/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./7-clock">7. Clock</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/YqRc5vMR/image.png' border='0' alt='image'/></a>
+</details>
