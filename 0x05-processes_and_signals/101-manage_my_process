@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+# manages a process
+
+command="$1"
+file="/var/run/myscript.pid"
+
+if [ -z "$command" ]; then
+
+  echo "Usage: $(basename "${BASH_SOURCE[0]}") {start|stop|restart}"
+
+else
+  if [ "$command" == "start" ]; then
+  
+    bash ./manage_my_process &
+    echo "$!" > "$file"
+    echo "manage_my_process started"
+  
+  elif [ "$command" == "stop" ]; then
+
+    [ -e "$file" ] && pkill -f manage_my_process && rm "$file"
+    echo "manage_my_process stopped"
+  
+  elif [ "$command" == "restart" ]; then
+
+    "$0" stop >& /dev/null
+    "$0" start >& /dev/null
+    echo "manage_my_process restarted"
+  
+  else
+    echo "Usage: $(basename "${BASH_SOURCE[0]}") {start|stop|restart}" 
+  fi
+fi

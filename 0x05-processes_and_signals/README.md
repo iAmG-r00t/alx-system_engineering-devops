@@ -62,3 +62,19 @@
 <summary><a href="./100-process_and_pid_file">9. Process and PID file</a></summary><br>
 <a href='https://postimg.cc/VdHnF6Cd' target='_blank'><img src='https://i.postimg.cc/rwqjMRyC/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./101-manage_my_process">10. Manage my process</a></summary><br>
+<a href='https://postimg.cc/2qPfd4z2' target='_blank'><img src='https://i.postimg.cc/gJ0kWD1F/image.png' border='0' alt='image'/></a>
+<ul>
+  <li>Links from screenshot
+  <ul>
+      <li><a href="https://bashitout.com/2013/05/18/Ampersands-on-the-command-line.html">&</a></li>
+      <li><a href="https://www.ghacks.net/2009/04/04/get-to-know-linux-the-etcinitd-directory/">init.d</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Daemon_%28computing%29">Daemon</a></li>
+      <li><a href="https://www.gnu.org/software/bash/manual/html_node/Positional-Parameters.html">Positional parameters</a></li>
+      <li><a href="./manage_my_process">manage_my_process</a></li>
+  </ul>
+  </li>
+</ul>
+</details>
