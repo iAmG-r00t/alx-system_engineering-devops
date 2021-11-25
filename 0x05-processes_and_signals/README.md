@@ -37,3 +37,8 @@
 <summary><a href="./5-dont_stop_me_now">5. Don't stop me now!</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/CMWh8vCx/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./6-stop_me_if_you_can">6. Stop me if you can</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/2SLpdvYF/image.png' border='0' alt='image'/></a>
+</details>
