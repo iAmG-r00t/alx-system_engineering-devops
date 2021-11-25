@@ -17,8 +17,7 @@ if [ "$command" == "start" ]; then
   echo "manage_my_process started"
 
 elif [ "$command" == "stop" ]; then
-  pkill -f manage_my_process
-  [ -e "$file" ] && rm "$file"
+  pkill -f './manage_my_process' && [ -e "$file" ] && rm "$file"
   echo "manage_my_process stopped"
 
 elif [ "$command" == "restart" ]; then
