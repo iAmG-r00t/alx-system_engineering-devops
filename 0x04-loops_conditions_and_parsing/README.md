@@ -81,3 +81,8 @@
 <summary><a href="./10-fizzbuzz">10. FizzBuzz</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/85bsJLq3/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./100-read_and_cut">11. Read and cut</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/FHQyLVqF/image.png' border='0' alt='image'/></a>
+</details>
