@@ -54,17 +54,17 @@
 </details>
 
 <details>
-<summary><a href="./beheaded_process">8. Beheaded process</a></summary><br>
+<summary><a href="./beheaded_process">9. Beheaded process</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/W4Xg8DTS/image.png' border='0' alt='image'/></a>
 </details>
 
 <details>
-<summary><a href="./100-process_and_pid_file">9. Process and PID file</a></summary><br>
+<summary><a href="./100-process_and_pid_file">10. Process and PID file</a></summary><br>
 <a href='https://postimg.cc/VdHnF6Cd' target='_blank'><img src='https://i.postimg.cc/rwqjMRyC/image.png' border='0' alt='image'/></a>
 </details>
 
 <details>
-<summary><a href="./101-manage_my_process">10. Manage my process</a></summary><br>
+<summary><a href="./101-manage_my_process">11. Manage my process</a></summary><br>
 <a href='https://postimg.cc/2qPfd4z2' target='_blank'><img src='https://i.postimg.cc/gJ0kWD1F/image.png' border='0' alt='image'/></a>
 <ul>
   <li>Links from screenshot
@@ -74,6 +74,18 @@
       <li><a href="https://en.wikipedia.org/wiki/Daemon_%28computing%29">Daemon</a></li>
       <li><a href="https://www.gnu.org/software/bash/manual/html_node/Positional-Parameters.html">Positional parameters</a></li>
       <li><a href="./manage_my_process">manage_my_process</a></li>
+  </ul>
+  </li>
+</ul>
+</details>
+
+<details>
+<summary><a href="./102-zombie.c">12. Zombie</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/ry1qKz2Y/image.png' border='0' alt='image'/></a>
+<ul>
+  <li>Links from screenshot
+  <ul>
+      <li><a href="https://zombieprocess.wordpress.com/what-is-a-zombie-process/">what a zombie process is</a></li>
   </ul>
   </li>
 </ul>
