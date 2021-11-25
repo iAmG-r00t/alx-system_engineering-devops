@@ -32,3 +32,8 @@
 <summary><a href="./4-to_infinity_and_beyond">4. To infinity and beyond</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/59rp1zBz/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./5-dont_stop_me_now">5. Don't stop me now!</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/CMWh8vCx/image.png' border='0' alt='image'/></a>
+</details>
