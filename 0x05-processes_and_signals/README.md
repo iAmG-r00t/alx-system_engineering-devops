@@ -12,3 +12,8 @@
 <summary><a href="./0-what-is-my-pid">0. What is my PID</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/NFCmFGcj/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./1-list_your_processes">1. List your processes</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/zXW2M4SR/image.png' border='0' alt='image'/></a>
+</details>
