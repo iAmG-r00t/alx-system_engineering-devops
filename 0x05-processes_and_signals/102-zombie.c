@@ -21,20 +21,18 @@ int infinite_while(void)
 */
 int main(void)
 {
-        int child_processes = 0;
-        pid_t pid;
+	int children_processes = 0;
+	pid_t pid;
 
-        while (child_processes < 5)
-        {
-                pid = fork();
-                if (!pid)
-                        break;
-                printf("Zombie process created, PID: %i\n", (int)pid);
-                child_processes++;
-        }
-
-        if (pid != 0)
-                infinite_while();
-
-        return (0);
+	while (children_processes < 5)
+	{
+		pid = fork();
+		if (!pid)
+			break;
+		printf("Zombie process created, PID: %i\n", (int)pid);
+		children_processes++;
+	}
+	if (pid != 0)
+		infinite_while();
+	return (0);
 }
