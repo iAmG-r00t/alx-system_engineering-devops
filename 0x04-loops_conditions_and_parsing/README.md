@@ -86,3 +86,8 @@
 <summary><a href="./100-read_and_cut">11. Read and cut</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/FHQyLVqF/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./101-tell_the_story_of_passwd">12. Tell the story of passwd</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/g0vNZG3x/image.png' border='0' alt='image'/></a>
+</details>
