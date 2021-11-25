@@ -5,9 +5,8 @@ command="$1"
 file="/var/run/myscript.pid"
 
 if [ -z "$command" ]; then
-
   echo "Usage: manage_my_process {start|stop|restart}"
-
+  exit
 fi
 
 if [ "$command" == "start" ]; then
