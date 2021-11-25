@@ -47,3 +47,8 @@
 <summary><a href="./7-highlander">7. Highlander</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/1z5yGXW9/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./8-beheaded_process">8. Beheaded process</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/W4Xg8DTS/image.png' border='0' alt='image'/></a>
+</details>
