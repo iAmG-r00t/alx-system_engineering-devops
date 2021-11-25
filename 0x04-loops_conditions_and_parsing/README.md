@@ -76,3 +76,8 @@
 <summary><a href="./9-to_file_or_not_to_file">9. To file, or not to file</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/RFwsBY5f/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./10-fizzbuzz">10. FizzBuzz</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/85bsJLq3/image.png' border='0' alt='image'/></a>
+</details>
