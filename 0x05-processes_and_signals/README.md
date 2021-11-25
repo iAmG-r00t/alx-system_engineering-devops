@@ -42,3 +42,8 @@
 <summary><a href="./6-stop_me_if_you_can">6. Stop me if you can</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/2SLpdvYF/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./7-highlander">7. Highlander</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/1z5yGXW9/image.png' border='0' alt='image'/></a>
+</details>
