@@ -99,3 +99,16 @@
   </li>
 </ul>
 </details>
+
+<details>
+<summary><a href="./102-lets_parse_apache_logs">13. Let's parse Apache logs</a></summary><br>
+<a href='https://postimg.cc/rDm2Zg6H' target='_blank'><img src='https://i.postimg.cc/P5bfxFSd/image.png' border='0' alt='image'/></a>
+<ul>
+  <li>Links from screenshot
+  <ul>
+      <li><a href="https://en.wikipedia.org/wiki/Apache_HTTP_Server">Apache HTTP Server</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes">HTTP status codes</a></li>
+  </ul>
+  </li>
+</ul>
+</details>
