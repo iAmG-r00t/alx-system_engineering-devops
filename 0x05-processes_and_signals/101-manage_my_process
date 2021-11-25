@@ -2,7 +2,6 @@
 # manages manage_my_process by either starting it, stopping it or restarting it.
 
 command="$1"
-file="/var/run/myscript.pid"
 
 if [ -z "$command" ]; then
   echo "Usage: manage_my_process {start|stop|restart}"
@@ -12,11 +11,11 @@ fi
 if [ "$command" == "start" ]; then
 
   bash ./manage_my_process &
-  touch "$file" && echo "$!" > "$file"
+  echo "$!" > /var/run/my_process.pid
   echo "manage_my_process started"
 
 elif [ "$command" == "stop" ]; then
-  [ -e "$file" ] && pkill -f './manage_my_process' && rm "$file"
+  [ -e "/var/run/my_process.pid" ] && pkill -f './manage_my_process' && rm /var/run/my_process.pid
   echo "manage_my_process stopped"
 
 elif [ "$command" == "restart" ]; then
