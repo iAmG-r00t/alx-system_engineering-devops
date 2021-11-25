@@ -90,4 +90,12 @@
 <details>
 <summary><a href="./101-tell_the_story_of_passwd">12. Tell the story of passwd</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/g0vNZG3x/image.png' border='0' alt='image'/></a>
+<ul>
+  <li>Links from screenshot
+  <ul>
+      <li><a href="https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/">Understanding /etc/passwd</a></li>
+      <li><a href="https://tldp.org/LDP/abs/html/internalvariables.html">IFS (internal field separator)</a></li>
+  </ul>
+  </li>
+</ul>
 </details>
