@@ -12,11 +12,11 @@ fi
 if [ "$command" == "start" ]; then
 
   bash ./manage_my_process &
-  echo "$!" > "$file"
+  touch "$file" && echo "$!" > "$file"
   echo "manage_my_process started"
 
 elif [ "$command" == "stop" ]; then
-  pkill -f './manage_my_process' && [ -e "$file" ] && rm "$file"
+  [ -e "$file" ] && pkill -f './manage_my_process' && rm "$file"
   echo "manage_my_process stopped"
 
 elif [ "$command" == "restart" ]; then
