@@ -29,3 +29,8 @@
 <summary><a href="./0-simply_match_school.rb">0. Simply matching School</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/1zCjqLRw/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./1-repetition_token_0.rb">1. Repetition Token #0</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/dtgN5CgX/image.png' border='0' alt='image'/></a>
+</details>
