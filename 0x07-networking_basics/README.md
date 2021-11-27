@@ -24,8 +24,16 @@
 <a href='https://postimg.cc/xJx2swkS' target='_blank'><img src='https://i.postimg.cc/MHxpGxqX/image.png' border='0' alt='image'/></a>
 </details>
 
-1. [Types of network](./1-types_of_network)
-2. [MAC and IP address](./2-MAC_and_IP_address)
+<details>
+<summary><a href="./1-types_of_network">1. Types of network</a></summary><br>
+<a href='https://postimg.cc/n9B3s7fw' target='_blank'><img src='https://i.postimg.cc/J0dv2c6m/image.png' border='0' alt='image'/></a>
+</details>
+
+<details>
+<summary><a href="./2-MAC_and_IP_address">2. MAC and IP address</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/2yp2bcK1/image.png' border='0' alt='image'/></a>
+</details>
+
 3. [UDP and TCP](./3-UDP_and_TCP)
 4. [TCP and UDP ports](./4-TCP_and_UDP_ports)
 5. [Is the host on the network](./5-is_the_host_on_the_network)
