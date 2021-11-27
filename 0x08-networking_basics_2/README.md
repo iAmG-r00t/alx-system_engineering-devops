@@ -23,5 +23,10 @@
 
 <details>
 <summary><a href="./1-show_attached_IPs">1. Show attached IPs</a></summary><br>
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Kjn0h65Z/image.png' border='0' alt='image'/></a><br /><a href='https://postimages.org/'>free image direct link website host</a><br />
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Kjn0h65Z/image.png' border='0' alt='image'/></a>
+</details>
+
+<details>
+<summary><a href="./100-port_listening_on_localhost">2. Port listening on localhost</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/9QTZ8dJh/image.png' border='0' alt='image'/></a>
 </details>
