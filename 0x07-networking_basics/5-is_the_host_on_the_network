@@ -5,7 +5,7 @@
 IP="${1}"
 
 # filename variable
-fn=$(basename "$BASH_SOURCE" .sh)
+fn=$(basename "${BASH_SOURCE[@]}")
 
 if ! [ "$IP" ]; then
 	echo "Usage: ${fn} {IP_ADDRESS}"
