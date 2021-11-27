@@ -34,6 +34,15 @@
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/2yp2bcK1/image.png' border='0' alt='image'/></a>
 </details>
 
-3. [UDP and TCP](./3-UDP_and_TCP)
+<details>
+<summary><a href="./3-UDP_and_TCP">3. UDP and TCP</a></summary><br>
+<a href='https://postimg.cc/qzbdpVQh' target='_blank'><img src='https://i.postimg.cc/0yx5d9wf/image.png' border='0' alt='image'/></a>
+</details>
+
+<details>
+<summary><a href="./4-TCP_and_UDP_ports">4. TCP and UDP ports</a></summary><br>
+<a href='https://postimg.cc/v4KMtFVF' target='_blank'><img src='https://i.postimg.cc/5t401f90/image.png' border='0' alt='image'/></a>
+</details>
+
 4. [TCP and UDP ports](./4-TCP_and_UDP_ports)
 5. [Is the host on the network](./5-is_the_host_on_the_network)
