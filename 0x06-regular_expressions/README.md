@@ -68,4 +68,11 @@
 <details>
 <summary><a href="./100-textme.rb">8. Textme</a></summary><br>
 <a href='https://postimg.cc/3kzNT3Sb' target='_blank'><img src='https://i.postimg.cc/wBjmDvhH/image.png' border='0' alt='image'/></a>
+<ul>
+  <li>Links from screenshot
+  <ul>
+      <li><a href="./text_messages.log">text messages log file</a></li>
+  </ul>
+  </li>
+</ul>
 </details>
