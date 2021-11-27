@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+# script that pings an IP address passed as an argument
 
 # ip variable
 IP="${1}"

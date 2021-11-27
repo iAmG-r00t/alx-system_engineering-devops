@@ -44,5 +44,7 @@
 <a href='https://postimg.cc/v4KMtFVF' target='_blank'><img src='https://i.postimg.cc/5t401f90/image.png' border='0' alt='image'/></a>
 </details>
 
-4. [TCP and UDP ports](./4-TCP_and_UDP_ports)
-5. [Is the host on the network](./5-is_the_host_on_the_network)
+<details>
+<summary><a href="./5-is_the_host_on_the_network">5. Is the host on the network</a></summary><br>
+<a href='https://postimg.cc/PCJ2YNZy' target='_blank'><img src='https://i.postimg.cc/FHg8tLHM/image.png' border='0' alt='image'/></a>
+</details>
