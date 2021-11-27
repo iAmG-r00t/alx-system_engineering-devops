@@ -64,3 +64,8 @@
 <summary><a href="./7-OMG_WHY_ARE_YOU_SHOUTING.rb">7. OMG WHY ARE YOU SHOUTING?</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/yYsypVKg/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./100-textme.rb">8. Textme</a></summary><br>
+<a href='https://postimg.cc/3kzNT3Sb' target='_blank'><img src='https://i.postimg.cc/wBjmDvhH/image.png' border='0' alt='image'/></a>
+</details>
