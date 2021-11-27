@@ -44,3 +44,8 @@
 <summary><a href="./3-repetition_token_2.rb">3. Repetition Token #2</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/6pZfHmXJ/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./4-repetition_token_3.rb">4. Repetition Token #3</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/sf92mzKN/image.png' border='0' alt='image'/></a>
+</details>
