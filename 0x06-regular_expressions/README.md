@@ -54,3 +54,8 @@
 <summary><a href="./5-beginning_and_end.rb">5. Not quite HBTN yet</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/TwdsXrMm/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./6-phone_number.rb">6. Call me maybe</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Kz1Hzmjv/image.png' border='0' alt='image'/></a>
+</details>
