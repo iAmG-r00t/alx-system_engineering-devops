@@ -24,3 +24,8 @@
   </li>
 </ul>
 </details>
+
+<details>
+<summary><a href="./1-distributed_web_infrastructure.jpg">1. Distributed web infrastructure</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/MTwSdKn5/image.png' border='0' alt='image'/></a>
+</details>
