@@ -14,7 +14,7 @@
 ## Tasks
 
 <details>
-<summary><a href="./0-simple_web_stack">0. Simple web stack</a></summary><br>
+<summary><a href="./0-simple_web_stack.jpg">0. Simple web stack</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/jdk2SN17/image.png' border='0' alt='image'/></a>
 <ul>
   <li>Links from screenshot
