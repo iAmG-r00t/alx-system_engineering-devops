@@ -2,6 +2,7 @@
 
 ## Resource
 
+- [Web Infrastructure](https://youtu.be/lQNEW76KdYg)
 - [What is a database](https://searchdatamanagement.techtarget.com/definition/database)
 - [What’s the difference between a web server and an app server?](https://www.youtube.com/watch?v=S97eKyv2b9M)
 - [DNS record types](https://pressable.com/?s=DNS&post_type=knowledgebase)
