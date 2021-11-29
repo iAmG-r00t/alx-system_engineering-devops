@@ -10,6 +10,8 @@
 - [High availability cluster (active-active/active-passive)](https://docs.oracle.com/cd/E17904_01/core.1111/e10106/intro.htm#ASHIA712)
 - [What is HTTPS](https://www.instantssl.com/http-vs-https)
 - [What is a firewall](https://www.webopedia.com/definitions/firewall/)
+- [Load Balancing Algorithms and Techniques](https://kemptechnologies.com/load-balancer/load-balancing-algorithms-techniques/)
+- [Active/Passive vs. Active/Active](https://kemptechnologies.com/fr/white-papers/unfog-confusion-active-passive-activeactive-load-balancing/)
 
 ## Tasks
 
@@ -33,4 +35,16 @@
 <details>
 <summary><a href="./2-secured_and_monitored_web_infrastructure.jpg">2. Secured and monitored web infrastructure</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/KYsZdtCJ/image.png' border='0' alt='image'/></a>
+</details>
+
+<details>
+<summary><a href="./3-scale_up.jpg">3. Scale up</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/13ndnc2x/image.png' border='0' alt='image'/></a>
+<ul>
+  <li>Links from screenshot
+  <ul>
+      <li><a href="https://www.nginx.com/resources/glossary/application-server-vs-web-server/">Application server vs web server</a></li>
+  </ul>
+  </li>
+</ul>
 </details>
