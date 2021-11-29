@@ -29,3 +29,8 @@
 <summary><a href="./1-distributed_web_infrastructure.jpg">1. Distributed web infrastructure</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/MTwSdKn5/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./2-secured_and_monitored_web_infrastructure.jpg">2. Secured and monitored web infrastructure</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/KYsZdtCJ/image.png' border='0' alt='image'/></a>
+</details>
