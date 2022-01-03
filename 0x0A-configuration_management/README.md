@@ -7,6 +7,7 @@
 - [Puppet’s Declarative Language: Modeling Instead of Scripting](https://puppet.com/blog/puppets-declarative-language-modeling-instead-of-scripting/)
 - [Puppet lint](http://puppet-lint.com/)
 - [Puppet emacs mode](https://github.com/voxpupuli/puppet-mode)
+- [Puppet CookBook](https://www.puppetcookbook.com/)
 
 ## Installing `puppet` and `puppet-lint`
 
@@ -26,4 +27,9 @@ gem install puppet-lint
 <details>
 <summary><a href="./0-create_a_file.pp">0. Create a file</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/NM2k46hX/image.png' border='0' alt='image'/></a>
+</details>
+
+<details>
+<summary><a href="./1-install_a_package.pp">1. Install a package</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/PqVvKj7c/image.png' border='0' alt='image'/></a>
 </details>
