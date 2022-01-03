@@ -33,3 +33,8 @@ gem install puppet-lint
 <summary><a href="./1-install_a_package.pp">1. Install a package</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/PqVvKj7c/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./">1. Execute a command</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/CxZFC13P/image.png' border='0' alt='image'/></a>
+</details>
