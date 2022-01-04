@@ -39,3 +39,9 @@
 <summary>3. Let me in!</summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/3N2k9F3k/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./100-puppet_ssh_config.pp">4. Client configuration file (w/ Puppet)</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/ryBvRXzV/image.png' border='0' alt='image'/></a>
+</details>
+
