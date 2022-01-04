@@ -26,6 +26,11 @@
 </details>
 
 <details>
-<summary><a href="./1-create_ssh_key_pair">0. Create an SSH key pair</a></summary><br>
+<summary><a href="./1-create_ssh_key_pair">1. Create an SSH key pair</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/pXPbpdbx/image.png' border='0' alt='image'/></a>
+</details>
+
+<details>
+<summary><a href="./2-ssh_config">2. Client configuration file</a></summary><br>
+<a href='https://postimg.cc/Hjb2CMHK' target='_blank'><img src='https://i.postimg.cc/y6brchGV/image.png' border='0' alt='image'/></a>
 </details>
