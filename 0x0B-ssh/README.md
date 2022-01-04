@@ -34,3 +34,8 @@
 <summary><a href="./2-ssh_config">2. Client configuration file</a></summary><br>
 <a href='https://postimg.cc/Hjb2CMHK' target='_blank'><img src='https://i.postimg.cc/y6brchGV/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary>3. Let me in!</summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/3N2k9F3k/image.png' border='0' alt='image'/></a>
+</details>
