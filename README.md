@@ -21,4 +21,4 @@
 - [0x08](./0x08-networking_basics_2) : Networking basics #1.
 - [0x09](./0x09-web_infrastructure_design) : Web infrastructure design.
 - [0x0A](./0x0A-configuration_management) : Configuration management.
-- [0x0B](./0x0B-ssh) : 0x0B. SSH.
+- [0x0B](./0x0B-ssh) : SSH.
