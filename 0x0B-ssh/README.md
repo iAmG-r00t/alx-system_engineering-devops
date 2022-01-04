@@ -42,6 +42,8 @@
 
 <details>
 <summary><a href="./100-puppet_ssh_config.pp">4. Client configuration file (w/ Puppet)</a></summary><br>
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/ryBvRXzV/image.png' border='0' alt='image'/></a>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/ryBvRXzV/image.png' border='0' alt='image'/></a><br>
+<ul><li>Install puppet stdlib module;</li></ul>
+<pre>sudo puppet module install puppetlabs-stdlib</pre>
 </details>
 
