@@ -45,3 +45,8 @@
 <summary><a href="./3-redirection">3. Redirection</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/tTmZ8GqZ/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./4-not_found_page_404">4. Not found page 404</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/zvhdBrG6/image.png' border='0' alt='image'/></a>
+</details>
