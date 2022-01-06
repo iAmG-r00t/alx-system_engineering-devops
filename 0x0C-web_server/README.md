@@ -35,3 +35,8 @@
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/QMbf1FrY/image.png' border='0' alt='image'/></a>
 <a href='https://postimg.cc/621fsx68' target='_blank'><img src='https://i.postimg.cc/vTGqVGpt/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./1-install_nginx_web_server">1. Install nginx web server</a></summary><br>
+<a href='https://postimg.cc/svdGgYqp' target='_blank'><img src='https://i.postimg.cc/L6htvvV0/image.png' border='0' alt='image'/></a>
+</details>
