@@ -37,6 +37,11 @@
 </details>
 
 <details>
-<summary><a href="./1-install_nginx_web_server">1. Install nginx web server</a></summary><br>
+<summary><a href="./2-setup_a_domain_name">2. Setup a domain name</a></summary><br>
 <a href='https://postimg.cc/svdGgYqp' target='_blank'><img src='https://i.postimg.cc/L6htvvV0/image.png' border='0' alt='image'/></a>
+</details>
+
+<details>
+<summary><a href="./3-redirection">3. Redirection</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/tTmZ8GqZ/image.png' border='0' alt='image'/></a>
 </details>
