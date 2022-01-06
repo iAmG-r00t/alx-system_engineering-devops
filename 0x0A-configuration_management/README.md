@@ -35,6 +35,6 @@ gem install puppet-lint
 </details>
 
 <details>
-<summary><a href="./">2. Execute a command</a></summary><br>
+<summary><a href="./2-execute_a_command.pp">2. Execute a command</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/CxZFC13P/image.png' border='0' alt='image'/></a>
 </details>
