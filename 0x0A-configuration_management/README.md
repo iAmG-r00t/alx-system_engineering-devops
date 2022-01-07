@@ -12,14 +12,18 @@
 ## Installing `puppet` and `puppet-lint`
 
 ```sh
-# installing puppet
-apt-get install -y ruby=1:2.7+1 --allow-downgrades
-apt-get install -y ruby-augeas
-apt-get install -y ruby-shadow
-apt-get install -y puppet
+# installing puppet and puppet-lint
+wget https://apt.puppet.com/puppet7-release-focal.deb && \
+    dpkg -i puppet7-release-focal.deb && \
+    apt-get update && \
+    apt-get install puppet-agent puppet-lint -y
 
-# installing puppet-lint
-gem install puppet-lint
+# confirming installation
+puppet -V
+puppet-lint -v
+
+# If you get an error saying puppet command not found, source the path
+source /etc/profile.d/puppet-agent.sh
 ```
 
 ## Tasks
