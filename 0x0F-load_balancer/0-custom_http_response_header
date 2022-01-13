@@ -2,6 +2,9 @@
 # duplicate web-01 to web-02
 # these scripts are an upgrade from the web-server scripts...
 
+# uncomment to see the script run in action
+#set -x
+
 # colors
 blue='\e[1;34m'
 brown='\e[0;33m'
@@ -44,8 +47,7 @@ fi
 # create directories if not present
 for dir in /var/www/{html,error}; do
 	if ! [ -d "$dir" ]; then
-		mkdir -p /var/www/"$dir"
-		break
+		mkdir -p "$dir"
 	fi
 done
 
