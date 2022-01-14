@@ -23,7 +23,6 @@ defaults
 				mode    http
 				option  httplog
 				option  dontlognull
-				option forwardfor
 				option http-server-close
 				timeout connect 5000
 				timeout client  50000
@@ -38,12 +37,12 @@ defaults
 
 frontend th3gr00t-tech-frontend
 				bind *:80
-				reqadd X-Forwarded-Proto:\ http
+				http-request set-header X-Forwarded-Proto http
 				default_backend th3gr00t-tech-backend
 
 frontend th3gr00t-tech-frontend-https
 				bind *:443 ssl crt /etc/haproxy/certs/th3gr00t.tech.pem
-				reqadd X-Forwarded-Proto:\ https
+				http-request set-header X-Forwarded-Proto https
 				default_backend th3gr00t-tech-backend
 
 backend th3gr00t-tech-backend
