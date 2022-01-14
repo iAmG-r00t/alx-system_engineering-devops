@@ -11,9 +11,9 @@ reset='\033[0m'
 
 dig_cmd () {
 	# func variables & parameters
-	domain="$1"
 	sub="$2"
-	INFO="$(dig "$sub.$domain" | grep -A1 'ANSWER SECTION:' | awk 'NR==2')"
+	DOMAIN="$2.$1"
+	INFO="$(dig "$DOMAIN" | grep -A1 'ANSWER SECTION:' | awk 'NR==2')"
 	IP=$(echo "$INFO" | awk '{print $5}')
 	RECORD=$(echo "$INFO" | awk '{print $4}')
 
@@ -22,9 +22,9 @@ dig_cmd () {
 
 if [ $# -eq 1 ]; then
 	subdomains="www lb-01 web-01 web-02"
-	for subs in $subdomains; do
+	for sub in $subdomains; do
 		# domain == $1
-		dig_cmd "$1" "$subs"
+		dig_cmd "$1" "$sub"
 	done
 elif [ $# -eq 2 ]; then
 	# domain == $1 & subdomain == $2
