@@ -9,13 +9,9 @@ blue='\e[1;34m'
 brown='\e[0;33m'
 reset='\033[0m'
 
-# variables & parameters
-subdomains=( "www" "lb-01" "web-01" "web-02" )
-domain="$1"
-sub="$2"
-
 dig_cmd () {
 	# func variables & parameters
+	domain="$1"
 	sub="$2"
 	INFO="$(dig "$sub.$domain" | grep -A1 'ANSWER SECTION:' | awk 'NR==2')"
 	IP=$(echo "$INFO" | awk '{print $5}')
@@ -25,9 +21,12 @@ dig_cmd () {
 }
 
 if [ $# -eq 1 ]; then
-	for subs in "${subdomains[@]}"; do
-		dig_cmd "$domain" "$subs"
+	subdomains="www lb-01 web-01 web-02"
+	for subs in $subdomains; do
+		# domain == $1
+		dig_cmd "$1" "$subs"
 	done
 elif [ $# -eq 2 ]; then
-	dig_cmd "$domain" "$sub"
+	# domain == $1 & subdomain == $2
+	dig_cmd "$1" "$2"
 fi
