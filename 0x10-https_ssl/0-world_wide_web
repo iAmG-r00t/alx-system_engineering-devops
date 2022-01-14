@@ -6,8 +6,6 @@
 
 # variables & parameters
 subdomains=( "www" "lb-01" "web-01" "web-02" )
-domain="$1"
-sub="$2"
 
 dig_cmd () {
 	sub="$1"
@@ -17,8 +15,11 @@ dig_cmd () {
 
 if [ $# -eq 1 ]; then
 	for subs in "${subdomains[@]}"; do
+		domain="$1"
 		dig_cmd "$subs" "$domain" 
 	done
 elif [ $# -eq 2 ]; then
+	domain="$1"
+	sub="$2"
 	dig_cmd "$sub" "$domain"
 fi
