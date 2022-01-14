@@ -10,12 +10,13 @@ subdomains=( "www" "lb-01" "web-01" "web-02" )
 dig_cmd () {
 	sub="$1"
 	domain="$2"
+
 	dig "$sub.$domain" | grep -A1 'ANSWER SECTION:' | tail -1 | awk -v s="$sub" 'BEGIN { FS = " " }; { print "\033[33mThe subdomain \033[34m" s "\033[0m \033[33mis a \033[0m" $4 " \033[33mrecord and points to \033[0m" $5 }'
 }
 
 if [ $# -eq 1 ]; then
+	domain="$1"
 	for subs in "${subdomains[@]}"; do
-		domain="$1"
 		dig_cmd "$subs" "$domain" 
 	done
 elif [ $# -eq 2 ]; then
