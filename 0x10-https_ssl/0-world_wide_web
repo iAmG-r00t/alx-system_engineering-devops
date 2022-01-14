@@ -4,21 +4,30 @@
 # uncomment for debugging purposes
 #set -x
 
+# colors
+blue='\e[1;34m'
+brown='\e[0;33m'
+reset='\033[0m'
+
 # variables & parameters
 subdomains=( "www" "lb-01" "web-01" "web-02" )
 domain="$1"
 sub="$2"
 
 dig_cmd () {
-	subdomain="$1"
-	domain="$2"
-	dig "$subdomain.$domain" | grep -A1 'ANSWER SECTION:' | tail -1 | awk -v s="$subdomain" 'BEGIN { FS = " " }; { print "\033[33mThe subdomain \033[34m" s "\033[0m \033[33mis a \033[0m" $4 " \033[33mrecord and points to \033[0m" $5 }'
+	# func variables & parameters
+	sub="$2"
+	INFO="$(dig "$sub.$domain" | grep -A1 'ANSWER SECTION:' | awk 'NR==2')"
+	IP=$(echo "$INFO" | awk '{print $5}')
+	RECORD=$(echo "$INFO" | awk '{print $4}')
+
+	echo -e "${brown}The subdomain ${blue}$sub${brown} is a ${blue}$RECORD${brown} record and points to ${blue}$IP${reset}"
 }
 
 if [ $# -eq 1 ]; then
 	for subs in "${subdomains[@]}"; do
-		dig_cmd "$subs" "$domain" 
+		dig_cmd "$domain" "$subs"
 	done
 elif [ $# -eq 2 ]; then
-	dig_cmd "$sub" "$domain"
+	dig_cmd "$domain" "$sub"
 fi
