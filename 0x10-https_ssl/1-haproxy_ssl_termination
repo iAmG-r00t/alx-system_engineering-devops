@@ -9,7 +9,7 @@ global
         daemon
 
         # See: https://ssl-config.mozilla.org/#server=haproxy&server-version=2.0.3&config=intermediate
-				# Limit supported certificates
+	# Limit supported certificates
         ssl-default-bind-ciphers ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES>
         ssl-default-bind-ciphersuites TLS_AES_128_GCM_SHA256:TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_>
         ssl-default-bind-options ssl-min-ver TLSv1.2 no-tls-tickets
@@ -31,12 +31,12 @@ defaults
         errorfile 504 /etc/haproxy/errors/504.http
 
 frontend th3gr00t-tech-frontend
-				bind *:80
-				bind *:443 ssl crt /etc/haproxy/certs/th3gr00t.tech.pem
-				http-request redirect scheme https unless { ssl_fc }
-				default_backend th3gr00t-tech-backend
+	bind *:80
+	bind *:443 ssl crt /etc/haproxy/certs/th3gr00t.tech.pem
+	http-request redirect scheme https unless { ssl_fc }
+	default_backend th3gr00t-tech-backend
 
 backend th3gr00t-tech-backend
-				balance roundrobin
-				server 453-web-01 35.243.128.200:80 check
-				server 453-web-02 3.239.120.96:80 check
+	balance roundrobin
+	server 453-web-01 35.243.128.200:80 check
+	server 453-web-02 3.239.120.96:80 check
