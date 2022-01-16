@@ -20,12 +20,12 @@ defaults
 
 frontend www-http
 	bind *:80
-	reqadd X-Forwarded-Proto:\ http
+	http-request set-header X-Forwarded-Proto http
 	default_backend th3gr00t-tech-backend
 
 frontend www-https
 	bind *:443 ssl crt /etc/haproxy/certs/th3gr00t.tech.pem
-	reqadd X-Forwarded-Proto:\ https
+	http-request set-header X-Forwarded-Proto https
 	acl    letsencrypt-acl path_beg /.well-known/acme-challenge/
 	use_backend letsencrypt-backend if letsencrypt-acl
 	default_backend th3gr00t-tech-backend
