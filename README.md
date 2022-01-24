@@ -27,3 +27,4 @@
 - [0x0E](./0x0E-web_stack_debugging_1) : Web stack debugging #1.
 - [0x0F](./0x0F-load_balancer) : Load balancer.
 - [0x10](./0x10-https_ssl) : HTTPS SSL.
+- [0x11](./0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter) : What happens when you type holbertonschool.com in your browser and press Enter.
