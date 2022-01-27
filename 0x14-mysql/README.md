@@ -11,6 +11,7 @@
 - [MySQL primary/replicate setup](https://www.digitalocean.com/community/tutorials/how-to-set-up-replication-in-mysql)
 - [Build a robust database backup strategy](https://www.databasejournal.com/ms-sql/developing-a-sql-server-backup-strategy/)
 - [Privileges Provided by MySQL](https://dev.mysql.com/doc/refman/8.0/en/privileges-provided.html#priv_replication-client) (***Replication Client***)
+- [Creating User for Replication](https://dev.mysql.com/doc/refman/8.0/en/replication-howto-repuser.html)
 
 ## Tasks
 
@@ -41,6 +42,18 @@ mysql> USE tyrell_corp;
 mysql> CREATE TABLE nexus6 (id INT, name VARCHAR(256));
 mysql> INSERT INTO nexus6 (id, name) VALUES ('1', 'Leon');
 mysql> GRANT SELECT ON tyrell_corp.nexus6 TO 'holberton_user'@'localhost'
+```
+
+</details>
+
+<details>
+<summary>3. Quite an experience to live in fear, isn't it?</summary><br>
+
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/D0CmW3vT/image.png' border='0' alt='image'/></a>
+```sh
+msql> CREATE USER 'replica_user'@'%' IDENTIFIED BY 'password';
+mysql> GRANT SELECT ON mysql.user TO 'holberton_user'@'localhost';
+mysql> GRANT REPLICATION SLAVE ON *.* TO 'replica_user'@'%'
 ```
 
 </details>
