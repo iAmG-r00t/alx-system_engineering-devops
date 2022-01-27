@@ -10,10 +10,37 @@
 - [What is a database primary/replicate cluster](https://www.digitalocean.com/community/tutorials/how-to-choose-a-redundancy-plan-to-ensure-high-availability#sql-replication)
 - [MySQL primary/replicate setup](https://www.digitalocean.com/community/tutorials/how-to-set-up-replication-in-mysql)
 - [Build a robust database backup strategy](https://www.databasejournal.com/ms-sql/developing-a-sql-server-backup-strategy/)
+- [Privileges Provided by MySQL](https://dev.mysql.com/doc/refman/8.0/en/privileges-provided.html#priv_replication-client) (***Replication Client***)
 
 ## Tasks
 
 <details>
 <summary>0. Install MySQL</summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/wMPwtg5K/image.png' border='0' alt='image'/></a>
+</details>
+
+<details>
+<summary>1. Let us in!</summary><br>
+
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/zB1QFncd/image.png' border='0' alt='image'/></a>
+```sh
+mysql> CREATE USER 'holberton_user'@'localhost' IDENTIFIED BY 'projectcorrection280hbtn';
+mysql> GRANT REPLICATION CLIENT ON *.* to 'holberton_user'@'localhost';
+mysql> FLUSH PRIVILEGES;
+```
+
+</details>
+
+<details>
+<summary>2. If only you could see what I've seen with your eyes</summary><br>
+
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/sgDm766T/image.png' border='0' alt='image'/></a>
+```sh
+mysql> CREATE DATABASE tyrell_corp;
+mysql> USE tyrell_corp;
+mysql> CREATE TABLE nexus6 (id INT, name VARCHAR(256));
+mysql> INSERT INTO nexus6 (id, name) VALUES ('1', 'Leon');
+mysql> GRANT SELECT ON tyrell_corp.nexus6 TO 'holberton_user'@'localhost'
+```
+
 </details>
