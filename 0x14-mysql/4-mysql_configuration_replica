@@ -1,0 +1,21 @@
+#
+# The MySQL  Server configuration file.
+#
+
+[mysqld]
+pid-file        = /var/run/mysqld/mysqld.pid
+socket          = /var/run/mysqld/mysqld.sock
+datadir         = /var/lib/mysql
+log-error       = /var/log/mysql/error.log
+# By default we only accept connections from localhost
+bind-address    = 127.0.0.1
+# Disabling symbolic-links is recommended to prevent assorted security risks
+symbolic-links=0
+# Distinguish servers in a replication setup
+server-id       = 2
+# MySQL's Binary Log File
+log_bin         = /var/log/mysql/mysql-bin.log
+# Database we want to replicate
+binlog_do_db    = tyrell_corp
+# Defines the location of the replica's relay log
+relay-log       = /var/log/mysql/mysql-relay-bin.log
