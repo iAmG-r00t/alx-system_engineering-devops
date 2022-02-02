@@ -64,6 +64,20 @@ sylvain@ubuntu$
 sudo tcpdump -A -l
 ```
 
-- [script](./user_authenticating_into_server)
+- [user\_authenticating\_into\_server](./user_authenticating_into_server) binary script file.
+
+</details>
+
+<details>
+<summary><a href="./1-dictionary_attack">1. Dictionary attack</a></summary><br>
+
+<a href="https://ibb.co/Ltr6sZh"><img src="https://i.ibb.co/7WQV01N/image.png" alt="image" border="0"></a>
+
+- [Wordlist](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt) **Rockyou.txt**
+
+```sh
+# command
+hydra -V -s 2222 -l sylvain -P rockyou.txt 127.0.0.1 ssh -t 64
+```
 
 </details>
