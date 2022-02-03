@@ -16,3 +16,8 @@
 <summary><a href="./1-run_nginx_as_nginx">1. Run Nginx as Nginx</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/HnNDJ0Ss/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./100-fix_in_7_lines_or_less">2. 7 lines or less</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/pd9mQ0Jw/image.png' border='0' alt='image'/></a>
+</details>
