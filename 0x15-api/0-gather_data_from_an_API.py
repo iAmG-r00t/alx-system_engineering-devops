@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-A script that gathers data from an API
+A script that gathers employee name completed
+tasks and total number of tasks from an API
 """
 
 import re
@@ -16,12 +17,12 @@ if __name__ == '__main__':
             id = int(sys.argv[1])
             emp_req = requests.get('{}/users/{}'.format(REST_API, id)).json()
             todo_req = requests.get('{}/todos'.format(REST_API, id)).json()
-            emp_name = emp_req.get('name')
+            name = emp_req.get('name')
             todo = list(filter(lambda x: x.get('userId') == id, todo_req))
             completed_todo = list(filter(lambda x: x.get('completed'), todo))
             print(
                 'Employee {} is done with tasks({}/{}):'.format(
-                    emp_name,
+                    name,
                     len(completed_todo),
                     len(todo)
                     )
