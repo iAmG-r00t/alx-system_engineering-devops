@@ -3,8 +3,8 @@
 A script that gathers data from an API
 """
 
-import requests
 import re
+import requests
 import sys
 
 REST_API = "https://jsonplaceholder.typicode.com"
