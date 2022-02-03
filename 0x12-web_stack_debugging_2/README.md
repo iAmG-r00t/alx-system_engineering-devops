@@ -11,3 +11,8 @@
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/3JjzLYwh/power.png' border='0' alt='power'/></a>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/cHZT1qTs/image.png' border='0' alt='image'/></a>
 </details>
+
+<details>
+<summary><a href="./1-run_nginx_as_nginx">1. Run Nginx as Nginx</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/HnNDJ0Ss/image.png' border='0' alt='image'/></a>
+</details>
