@@ -1,0 +1,13 @@
+# 0x12. Web stack debugging #2 
+
+<p align="center">
+  <img src="https://i.postimg.cc/dVXBzkzc/99littlebugsinthecode.jpg"/>
+</p>
+
+## Tasks
+
+<details>
+<summary><a href="./0-iamsomeoneelse">0. Run software as another user</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/3JjzLYwh/power.png' border='0' alt='power'/></a>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/cHZT1qTs/image.png' border='0' alt='image'/></a>
+</details>
