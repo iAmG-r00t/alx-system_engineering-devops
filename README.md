@@ -31,4 +31,4 @@
 - [0x12](./0x12-web_stack_debugging_2) : Web stack debugging #2.
 - [0x13](./0x13-firewall) : Firewall.
 - [0x14](./0x14-mysql) : MySQL.
-- [Attack is the best defense](./attack_is_the_best_defense.)
+- [Attack is the best defense.](./attack_is_the_best_defense)
