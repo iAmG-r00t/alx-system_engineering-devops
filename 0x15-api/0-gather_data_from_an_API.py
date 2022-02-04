@@ -28,4 +28,4 @@ if __name__ == '__main__':
                     )
                 )
             for completed in completed_todo:
-                print('\t {}'.format(completed.get('title')))
+                print('     {}'.format(completed.get('title')))
