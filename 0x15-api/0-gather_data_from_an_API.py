@@ -16,16 +16,16 @@ if __name__ == '__main__':
         if re.fullmatch(r'\d+', sys.argv[1]):
             id = int(sys.argv[1])
             emp_req = requests.get('{}/users/{}'.format(REST_API, id)).json()
-            todo_req = requests.get('{}/todos'.format(REST_API)).json()
+            task_req = requests.get('{}/todos'.format(REST_API)).json()
             emp_name = emp_req.get('name')
-            todo = list(filter(lambda x: x.get('userId') == id, todo_req))
-            completed_todo = list(filter(lambda x: x.get('completed'), todo))
+            tasks = list(filter(lambda x: x.get('userId') == id, task_req))
+            completed_tasks = list(filter(lambda x: x.get('completed'), tasks))
             print(
                 'Employee {} is done with tasks({}/{}):'.format(
                     emp_name,
-                    len(completed_todo),
-                    len(todo)
+                    len(completed_tasks),
+                    len(tasks)
                     )
                 )
-            for completed in completed_todo:
-                print('     {}'.format(completed.get('title')))
+            for completed in completed_tasks:
+                print('\t {}'.format(completed.get('title')))
