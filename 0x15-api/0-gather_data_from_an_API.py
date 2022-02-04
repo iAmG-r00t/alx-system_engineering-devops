@@ -1,21 +1,24 @@
 #!/usr/bin/python3
-'''A script that gathers data from an API.
-'''
+"""
+Using https://jsonplaceholder.typicode.com
+returns info about employee TODO progress
+Implemented using recursion
+"""
 import re
 import requests
 import sys
 
 
-API_URL = 'https://jsonplaceholder.typicode.com'
-'''The API's URL.'''
+API = "https://jsonplaceholder.typicode.com"
+"""REST API url"""
 
 
 if __name__ == '__main__':
     if len(sys.argv) > 1:
         if re.fullmatch(r'\d+', sys.argv[1]):
             id = int(sys.argv[1])
-            user_res = requests.get('{}/users/{}'.format(API_URL, id)).json()
-            todos_res = requests.get('{}/todos'.format(API_URL)).json()
+            user_res = requests.get('{}/users/{}'.format(API, id)).json()
+            todos_res = requests.get('{}/todos'.format(API)).json()
             user_name = user_res.get('name')
             todos = list(filter(lambda x: x.get('userId') == id, todos_res))
             todos_done = list(filter(lambda x: x.get('completed'), todos))
