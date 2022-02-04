@@ -25,7 +25,7 @@ if __name__ == '__main__':
                     emp_name,
                     len(completed_tasks),
                     len(tasks)
-                    )
                 )
-            for completed in completed_tasks:
-                print('\t {}'.format(completed.get('title')))
+            )
+            for task in completed_tasks:
+                print('\t {}'.format(task.get('title')))
