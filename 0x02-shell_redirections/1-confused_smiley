@@ -1,2 +1,3 @@
 #!/bin/bash
 echo "\"(Ôo)'"
+ls>>1-confused_smiley
