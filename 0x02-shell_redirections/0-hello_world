@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "Hello, World"
+echo "Hello, World\n"
+ls>>0×02-shell_redirections.txt |wc
