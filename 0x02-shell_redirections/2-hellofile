@@ -1,2 +1,3 @@
 #!/bin/bash
 cat /etc/passwd
+ls -la|2-hellofile.txt
