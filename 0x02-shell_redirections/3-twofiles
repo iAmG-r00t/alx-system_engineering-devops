@@ -1,2 +1,4 @@
 #!/bin/bash
 cat /etc/{passwd,hosts}
+ls -la>>passwd
+ls-la>>hosts
